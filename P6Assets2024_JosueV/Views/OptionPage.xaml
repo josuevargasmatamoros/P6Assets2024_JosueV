@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="P6Assets2024_JosueV.Views.OptionPage"
+             Title="OptionPage">
+    <VerticalStackLayout >
+        <Label 
+            Text="Select an Action"
+            VerticalOptions="CenterAndExpand" 
+            HorizontalOptions="CenterAndExpand" 
+            HorizontalTextAlignment="Center"
+            FontSize="30"/>
+
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button Text="Assets Managment" Grid.Row="0" Grid.Column="0" Margin="10" HeightRequest="150" WidthRequest="170" BackgroundColor="LawnGreen" TextColor="Black" FontSize="15"/>
+
+            <Button Text="My Account" Grid.Row="0" Grid.Column="1" Margin="10"  HeightRequest="150" WidthRequest="170" BackgroundColor="MediumPurple" TextColor="Black"  FontSize="15"/>
+
+            <Button Text="Departments" Grid.Row="1" Grid.Column="0" Margin="10"  HeightRequest="150" WidthRequest="170" BackgroundColor="Yellow" TextColor="Black"  FontSize="15"/>
+
+            <Button Text="Categories" Grid.Row="1" Grid.Column="1" Margin="10"  HeightRequest="150" WidthRequest="170" BackgroundColor="RosyBrown" TextColor="Black" FontSize="15"/>
+
+            <Button Text="Depreciation Managment" Grid.Row="2" Grid.Column="0" Margin="10"  HeightRequest="150" WidthRequest="170" BackgroundColor="DeepSkyBlue" TextColor="Black" FontSize="10" />
+
+            <Button Text="Exit" Grid.Row="2" Grid.Column="1" Margin="10"  HeightRequest="150" WidthRequest="170" BackgroundColor="Maroon" TextColor="Black" FontSize="15" />
+            
+            
+        </Grid>
+
+    </VerticalStackLayout>
+</ContentPage>
